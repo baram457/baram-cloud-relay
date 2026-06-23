@@ -1,7 +1,7 @@
 {
   "name": "baram-cloud-relay-server",
-  "version": "10.72.0",
-  "description": "Baram cloud data relay server for BTC, Nasdaq, gold, silver, oil, Hang Seng",
+  "version": "10.73.0",
+  "description": "Baram cloud data relay server with stable cloud BTC, Nasdaq, gold, silver, oil, Hang Seng",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
