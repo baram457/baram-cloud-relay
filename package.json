@@ -1,9 +1,9 @@
 {
-  "name": "baram-cloud-relay-server",
-  "version": "10.73.0",
-  "description": "Baram cloud data relay server with stable cloud BTC, Nasdaq, gold, silver, oil, Hang Seng",
+  "name": "baram-capital-demo-relay",
+  "version": "10.78.0",
+  "description": "Baram V10.78 Capital.com demo data relay for V10.66 HTML",
   "main": "server.js",
-  "type": "commonjs",
+  "type": "module",
   "scripts": {
     "start": "node server.js"
   },
@@ -11,6 +11,7 @@
     "node": ">=18"
   },
   "dependencies": {
-    "ws": "^8.18.0"
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
   }
 }

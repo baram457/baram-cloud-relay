@@ -5,7 +5,12 @@ services:
     plan: free
     buildCommand: npm install
     startCommand: npm start
-    autoDeploy: true
     envVars:
-      - key: NODE_VERSION
-        value: 20
+      - key: CAPITAL_API_KEY
+        sync: false
+      - key: CAPITAL_IDENTIFIER
+        sync: false
+      - key: CAPITAL_PASSWORD
+        sync: false
+      - key: CAPITAL_DEMO
+        value: "true"
