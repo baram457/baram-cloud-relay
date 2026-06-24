@@ -332,7 +332,7 @@ async function getCandles(symbol, tfSec = 60, max = 260) {
 }
 
 app.get('/', (_req, res) => {
-  res.type('text/plain').send('Baram V10.78 Capital.com Demo Relay OK\n' + new Date().toISOString());
+  res.type('text/plain').send('바람 V10.78Q Capital.com 데모 릴레이 OK\n' + new Date().toISOString());
 });
 
 app.get('/health', (_req, res) => {
