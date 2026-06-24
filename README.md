@@ -73,3 +73,4 @@ CAPITAL_EPIC_HSI=직접 확인한 epic
 ## V10.78Q 수정
 - US100 등 일부 종목에서 `/markets?epics=`가 빈 값으로 오는 경우, 자동검색 결과의 market quote를 fallback으로 사용합니다.
 - `quote market empty: US100` 오류 방지.
+- force redeploy 1078Q
